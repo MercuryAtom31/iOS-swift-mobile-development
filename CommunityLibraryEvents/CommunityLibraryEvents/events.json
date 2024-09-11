@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "title": "Summer Reading Kickoff",
+        "date": "2024-06-01",
+        "description": "Join us for the start of summer reading with fun activities and free books for all ages."
+    },
+    {
+        "id": 2,
+        "title": "Author Visit: Jane Doe",
+        "date": "2024-06-15",
+        "description": "Meet bestselling author Jane Doe as she discusses her latest novel."
+    }
+]
