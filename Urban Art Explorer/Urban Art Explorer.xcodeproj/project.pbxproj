@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5E434B22C91344500324EDE /* Urban_Art_ExplorerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E434B12C91344500324EDE /* Urban_Art_ExplorerApp.swift */; };
+		D5E434B42C91344500324EDE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E434B32C91344500324EDE /* ContentView.swift */; };
+		D5E434B62C91344700324EDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5E434B52C91344700324EDE /* Assets.xcassets */; };
+		D5E434B92C91344700324EDE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5E434B82C91344700324EDE /* Preview Assets.xcassets */; };
+		D5E434C32C91344800324EDE /* Urban_Art_ExplorerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E434C22C91344800324EDE /* Urban_Art_ExplorerTests.swift */; };
+		D5E434CD2C91344800324EDE /* Urban_Art_ExplorerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E434CC2C91344800324EDE /* Urban_Art_ExplorerUITests.swift */; };
+		D5E434CF2C91344800324EDE /* Urban_Art_ExplorerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E434CE2C91344800324EDE /* Urban_Art_ExplorerUITestsLaunchTests.swift */; };
+		D5E434DE2C9134E300324EDE /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E434DD2C9134E300324EDE /* Artwork.swift */; };
+		D5E434E02C913A2F00324EDE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E434DF2C913A2F00324EDE /* MainView.swift */; };
+		D5E434E22C913BBE00324EDE /* ArtworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E434E12C913BBE00324EDE /* ArtworkDetailView.swift */; };
+		D5E434E42C913CB700324EDE /* ArtworkListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E434E32C913CB700324EDE /* ArtworkListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5E434BF2C91344800324EDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5E434A62C91344500324EDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5E434AD2C91344500324EDE;
+			remoteInfo = "Urban Art Explorer";
+		};
+		D5E434C92C91344800324EDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5E434A62C91344500324EDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5E434AD2C91344500324EDE;
+			remoteInfo = "Urban Art Explorer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5E434AE2C91344500324EDE /* Urban Art Explorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Urban Art Explorer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E434B12C91344500324EDE /* Urban_Art_ExplorerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Urban_Art_ExplorerApp.swift; sourceTree = "<group>"; };
+		D5E434B32C91344500324EDE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D5E434B52C91344700324EDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5E434B82C91344700324EDE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D5E434BE2C91344800324EDE /* Urban Art ExplorerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Urban Art ExplorerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E434C22C91344800324EDE /* Urban_Art_ExplorerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Urban_Art_ExplorerTests.swift; sourceTree = "<group>"; };
+		D5E434C82C91344800324EDE /* Urban Art ExplorerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Urban Art ExplorerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E434CC2C91344800324EDE /* Urban_Art_ExplorerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Urban_Art_ExplorerUITests.swift; sourceTree = "<group>"; };
+		D5E434CE2C91344800324EDE /* Urban_Art_ExplorerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Urban_Art_ExplorerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D5E434DD2C9134E300324EDE /* Artwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		D5E434DF2C913A2F00324EDE /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		D5E434E12C913BBE00324EDE /* ArtworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkDetailView.swift; sourceTree = "<group>"; };
+		D5E434E32C913CB700324EDE /* ArtworkListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5E434AB2C91344500324EDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E434BB2C91344800324EDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E434C52C91344800324EDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5E434A52C91344500324EDE = {
+			isa = PBXGroup;
+			children = (
+				D5E434B02C91344500324EDE /* Urban Art Explorer */,
+				D5E434C12C91344800324EDE /* Urban Art ExplorerTests */,
+				D5E434CB2C91344800324EDE /* Urban Art ExplorerUITests */,
+				D5E434AF2C91344500324EDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5E434AF2C91344500324EDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5E434AE2C91344500324EDE /* Urban Art Explorer.app */,
+				D5E434BE2C91344800324EDE /* Urban Art ExplorerTests.xctest */,
+				D5E434C82C91344800324EDE /* Urban Art ExplorerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5E434B02C91344500324EDE /* Urban Art Explorer */ = {
+			isa = PBXGroup;
+			children = (
+				D5E434DF2C913A2F00324EDE /* MainView.swift */,
+				D5E434DD2C9134E300324EDE /* Artwork.swift */,
+				D5E434B12C91344500324EDE /* Urban_Art_ExplorerApp.swift */,
+				D5E434B32C91344500324EDE /* ContentView.swift */,
+				D5E434B52C91344700324EDE /* Assets.xcassets */,
+				D5E434B72C91344700324EDE /* Preview Content */,
+				D5E434E12C913BBE00324EDE /* ArtworkDetailView.swift */,
+				D5E434E32C913CB700324EDE /* ArtworkListView.swift */,
+			);
+			path = "Urban Art Explorer";
+			sourceTree = "<group>";
+		};
+		D5E434B72C91344700324EDE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D5E434B82C91344700324EDE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D5E434C12C91344800324EDE /* Urban Art ExplorerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5E434C22C91344800324EDE /* Urban_Art_ExplorerTests.swift */,
+			);
+			path = "Urban Art ExplorerTests";
+			sourceTree = "<group>";
+		};
+		D5E434CB2C91344800324EDE /* Urban Art ExplorerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5E434CC2C91344800324EDE /* Urban_Art_ExplorerUITests.swift */,
+				D5E434CE2C91344800324EDE /* Urban_Art_ExplorerUITestsLaunchTests.swift */,
+			);
+			path = "Urban Art ExplorerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5E434AD2C91344500324EDE /* Urban Art Explorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5E434D22C91344800324EDE /* Build configuration list for PBXNativeTarget "Urban Art Explorer" */;
+			buildPhases = (
+				D5E434AA2C91344500324EDE /* Sources */,
+				D5E434AB2C91344500324EDE /* Frameworks */,
+				D5E434AC2C91344500324EDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Urban Art Explorer";
+			productName = "Urban Art Explorer";
+			productReference = D5E434AE2C91344500324EDE /* Urban Art Explorer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5E434BD2C91344800324EDE /* Urban Art ExplorerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5E434D52C91344800324EDE /* Build configuration list for PBXNativeTarget "Urban Art ExplorerTests" */;
+			buildPhases = (
+				D5E434BA2C91344800324EDE /* Sources */,
+				D5E434BB2C91344800324EDE /* Frameworks */,
+				D5E434BC2C91344800324EDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5E434C02C91344800324EDE /* PBXTargetDependency */,
+			);
+			name = "Urban Art ExplorerTests";
+			productName = "Urban Art ExplorerTests";
+			productReference = D5E434BE2C91344800324EDE /* Urban Art ExplorerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5E434C72C91344800324EDE /* Urban Art ExplorerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5E434D82C91344800324EDE /* Build configuration list for PBXNativeTarget "Urban Art ExplorerUITests" */;
+			buildPhases = (
+				D5E434C42C91344800324EDE /* Sources */,
+				D5E434C52C91344800324EDE /* Frameworks */,
+				D5E434C62C91344800324EDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5E434CA2C91344800324EDE /* PBXTargetDependency */,
+			);
+			name = "Urban Art ExplorerUITests";
+			productName = "Urban Art ExplorerUITests";
+			productReference = D5E434C82C91344800324EDE /* Urban Art ExplorerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5E434A62C91344500324EDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					D5E434AD2C91344500324EDE = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					D5E434BD2C91344800324EDE = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D5E434AD2C91344500324EDE;
+					};
+					D5E434C72C91344800324EDE = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D5E434AD2C91344500324EDE;
+					};
+				};
+			};
+			buildConfigurationList = D5E434A92C91344500324EDE /* Build configuration list for PBXProject "Urban Art Explorer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5E434A52C91344500324EDE;
+			productRefGroup = D5E434AF2C91344500324EDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5E434AD2C91344500324EDE /* Urban Art Explorer */,
+				D5E434BD2C91344800324EDE /* Urban Art ExplorerTests */,
+				D5E434C72C91344800324EDE /* Urban Art ExplorerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5E434AC2C91344500324EDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E434B92C91344700324EDE /* Preview Assets.xcassets in Resources */,
+				D5E434B62C91344700324EDE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E434BC2C91344800324EDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E434C62C91344800324EDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5E434AA2C91344500324EDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E434E22C913BBE00324EDE /* ArtworkDetailView.swift in Sources */,
+				D5E434B42C91344500324EDE /* ContentView.swift in Sources */,
+				D5E434E02C913A2F00324EDE /* MainView.swift in Sources */,
+				D5E434DE2C9134E300324EDE /* Artwork.swift in Sources */,
+				D5E434B22C91344500324EDE /* Urban_Art_ExplorerApp.swift in Sources */,
+				D5E434E42C913CB700324EDE /* ArtworkListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E434BA2C91344800324EDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E434C32C91344800324EDE /* Urban_Art_ExplorerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E434C42C91344800324EDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E434CF2C91344800324EDE /* Urban_Art_ExplorerUITestsLaunchTests.swift in Sources */,
+				D5E434CD2C91344800324EDE /* Urban_Art_ExplorerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5E434C02C91344800324EDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5E434AD2C91344500324EDE /* Urban Art Explorer */;
+			targetProxy = D5E434BF2C91344800324EDE /* PBXContainerItemProxy */;
+		};
+		D5E434CA2C91344800324EDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5E434AD2C91344500324EDE /* Urban Art Explorer */;
+			targetProxy = D5E434C92C91344800324EDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D5E434D02C91344800324EDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5E434D12C91344800324EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5E434D32C91344800324EDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Urban Art Explorer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mercuryatom.Urban-Art-Explorer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5E434D42C91344800324EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Urban Art Explorer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mercuryatom.Urban-Art-Explorer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D5E434D62C91344800324EDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mercuryatom.Urban-Art-ExplorerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Urban Art Explorer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Urban Art Explorer";
+			};
+			name = Debug;
+		};
+		D5E434D72C91344800324EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mercuryatom.Urban-Art-ExplorerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Urban Art Explorer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Urban Art Explorer";
+			};
+			name = Release;
+		};
+		D5E434D92C91344800324EDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mercuryatom.Urban-Art-ExplorerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Urban Art Explorer";
+			};
+			name = Debug;
+		};
+		D5E434DA2C91344800324EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mercuryatom.Urban-Art-ExplorerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Urban Art Explorer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5E434A92C91344500324EDE /* Build configuration list for PBXProject "Urban Art Explorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E434D02C91344800324EDE /* Debug */,
+				D5E434D12C91344800324EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5E434D22C91344800324EDE /* Build configuration list for PBXNativeTarget "Urban Art Explorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E434D32C91344800324EDE /* Debug */,
+				D5E434D42C91344800324EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5E434D52C91344800324EDE /* Build configuration list for PBXNativeTarget "Urban Art ExplorerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E434D62C91344800324EDE /* Debug */,
+				D5E434D72C91344800324EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5E434D82C91344800324EDE /* Build configuration list for PBXNativeTarget "Urban Art ExplorerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E434D92C91344800324EDE /* Debug */,
+				D5E434DA2C91344800324EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5E434A62C91344500324EDE /* Project object */;
+}
