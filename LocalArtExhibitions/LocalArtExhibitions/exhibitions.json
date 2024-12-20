@@ -1,0 +1,50 @@
+[
+    {
+        "id": "1F56AB78-9D3A-487D-8BC6-03F60C6BFC87",
+        "name": "The Createfully Divergent Art Class",
+        "date": "2024-09-25",
+        "artist": "Kristin Dawn Renault",
+        "venue": "Notre Dame Des Arts",
+        "imageName": "image1"
+    },
+    {
+        "id": "A3B56B22-7D6B-486D-843D-F5F60C3DFC12",
+        "name": "Gallery Weekend Opening Party",
+        "date": "2024-09-26",
+        "artist": "Nicolas Robert & Eli Kerr",
+        "venue": "Eli Kerr & Nicolas Robert Galleries",
+        "imageName": "image2"
+    },
+    {
+        "id": "3C78AD54-4B79-4F48-BF33-1456FC9E0C98",
+        "name": "Urban Architecture Highlights",
+        "date": "2024-09-28",
+        "artist": "John Doe",
+        "venue": "City Architecture Museum",
+        "imageName": "architecture-1868706_1280"
+    },
+    {
+        "id": "7D89FB24-3A5F-4B0C-B56F-8A70F8F0D432",
+        "name": "Street Art Wonders",
+        "date": "2024-09-29",
+        "artist": "Various Artists",
+        "venue": "Downtown Alley",
+        "imageName": "street-art-7885965_1280"
+    },
+    {
+        "id": "6A54BF23-2A3D-4E0C-B33F-1A98E6A0CBA1",
+        "name": "Modern Texture Art",
+        "date": "2024-10-01",
+        "artist": "Sophia Delacroix",
+        "venue": "Modern Art Museum",
+        "imageName": "texture-1909992_1280"
+    },
+    {
+        "id": "8F56AC89-2B67-4F83-B54E-9F23C6D6A6B1",
+        "name": "Colorful Expressionism",
+        "date": "2024-10-03",
+        "artist": "Emily Richardson",
+        "venue": "Expressionist Gallery",
+        "imageName": "colorful-3256055_1280"
+    }
+]
