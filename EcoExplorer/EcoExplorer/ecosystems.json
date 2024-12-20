@@ -1,0 +1,49 @@
+[
+    {
+        "name": "Amazon Rainforest",
+        "type": "Forest",
+        "latitude": -3.4653,
+        "longitude": -62.2159,
+        "notableSpecies": "Jaguar, Harpy Eagle",
+        "conservationStatus": "Endangered",
+        "country": "Brazil"
+    },
+    {
+        "name": "Sahara Desert",
+        "type": "Desert",
+        "latitude": 23.4162,
+        "longitude": 25.6628,
+        "notableSpecies": "Fennec Fox, Dromedary Camel",
+        "conservationStatus": "Vulnerable",
+        "country": "North Africa"
+    },
+    {
+        "name": "Great Barrier Reef",
+        "type": "Coral Reef",
+        "latitude": -18.2871,
+        "longitude": 147.6992,
+        "notableSpecies": "Clownfish, Green Turtle",
+        "conservationStatus": "Critically Endangered",
+        "country": "Australia"
+    },
+    {
+        "name": "Serengeti",
+        "type": "Savanna",
+        "latitude": -2.3333,
+        "longitude": 34.8333,
+        "notableSpecies": "Lion, Elephant, Wildebeest",
+        "conservationStatus": "Vulnerable",
+        "country": "Tanzania"
+    },
+    {
+        "name": "Antarctic Peninsula",
+        "type": "Polar",
+        "latitude": -64.0000,
+        "longitude": -60.0000,
+        "notableSpecies": "Penguin, Weddell Seal",
+        "conservationStatus": "Under Threat",
+        "country": "Antarctica"
+    }
+]
+
+
